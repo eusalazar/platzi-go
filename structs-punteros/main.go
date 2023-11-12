@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-//INTERFACES- es un metodo donde puedes compartir otros metodos
+//INTERFACES- una interfaz es un tipo abstracto que define un conjunto de métodos que deben ser implementados
+//por cualquier tipo de dato para ser considerado una instancia de esa interfaz
 
 type figura2D interface {
 	area() float64
